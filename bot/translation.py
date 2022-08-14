@@ -18,37 +18,26 @@
 
 class Translation:
     START_TEXT = (
-        "Hi!\n"
-        "please read the TnC before proceeding: https://t.me/SpEcHlDe/889\n"
-        "Thank you for using me 😬\n"
-        "Enter your Telegram Phone Number, "
-        "to get the APP-ID from my.telegram.org\n\n"
-        "/start at any stage to re-enter your details"
-    )
+        " 🍽️ Hi!\n"
+        " 🤝 Thank you for using me 😬\n"
+        ". ☎️ Enter your number along with the country code: "
+           " 📞 Example : +1452677888 "
+          )
     AFTER_RECVD_CODE_TEXT = (
-        "I see!\n"
-        "now please send the Telegram code that "
-        "you received from Telegram!\n\n"
-
-        "this code is only used for the purpose of "
-        "getting the APP ID from my.telegram.org\n"
-        "if you do not trust this bot dev, "
-        "please host this bot yourself\n"
-        "by opening https://github.com/SpEcHiDe/MyTelegramOrgRoBot and "
-        "clicking on the Pink Button\n\n"
-
-        "/start at any stage to re-enter your details"
+        "🕊️ I see!\n"
+        " 💠 Enter Code: "
+        " 🪴 you received from Telegram!\n\n"      
     )
-    BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@SpEcHlDe"
-    CANCELLED_MESG = "Bye! Please re /start the bot conversation"
+    BEFORE_SUCC_LOGIN = "🪴 Getting your api please stand by..."
+    ERRED_PAGE = "❌ Failed to get api"
+    CANCELLED_MESG = "✨ Bye! Please enter your phone number again "
     IN_VALID_CODE_PVDED = (
-        "sorry, "
-        "but the input does not seem to be "
-        "a valid Telegram Web-Login code"
+        "✨ sorry, "
+        " 🪴 But the code looks pretty much wrong "
+        "  🧪 Use /start and put your number again  "
     )
     IN_VALID_PHNO_PVDED = (
-        "sorry, "
-        "but the input does not seem to be "
-        "a valid phone number"
+        "🪴 sorry, "
+        " ✨ but the phone number seems wrong "
+        "  🧪 Put a right number "
     )
